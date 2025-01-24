@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blue Rose Serenade</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      font-family: 'Barlow', sans-serif;
+      background-color: #f0f8ff;
+      color: #333;
+      text-align: justify;
+    }
+
+    .navbar {
+      background-color: #3781d1;
+    }
+
+    .carousel-item img {
+      height: 400px;
+      object-fit: cover;
+    }
+
+    .section-title {
+      font-size: 2.5rem;
+      font-weight: bold;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+
+    .card {
+      background-color:rgb(151, 205, 231);
+      border: none;
+    }
+
+    .footer {
+      background-color: #3781d1;
+      padding: 20px 0;
+      color: #fff;
+    }
+
+    .welcome-text {
+      text-align: center;
+      font-size: 2rem;
+      margin: 40px 0;
+    }
+  </style>
+</head>
+<body class="animate__animated animate__fadeIn">
+
+  <!-- Header -->
+  <header>
+      <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#" style="font-family: 'Lucida Handwriting', cursive; font-size: 1.5rem; font-weight: bold; text-transform: uppercase; color: #c6dcfa; text-decoration: none; letter-spacing: 1px;">
+          Blue Rose Serenade
+        </a>        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="#slider">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Gallery.html">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#products">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#promo">Promo</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="S-Chart.html">S-Chart</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <section id="slider">
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/CAROUSEL1.png" class="d-block w-100" alt="Blue Roses Bouquet">
+            <div class="carousel-caption d-none d-md-block bg-black bg-opacity-50 shadow-caption">
+              <h5 style="font-family:'Times New Roman', Times, serif; font-size: 2rem;">Welcome to My Site</h5>
+              <p style="font-family: Georgia, 'Times New Roman', Times, serif;">"Welcome to Blue Rose Serenade, where elegance and beauty bloom in every bouquet."</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/CAROUSEL3.png" class="d-block w-100" alt="Elegant Blue Roses">
+            <div class="carousel-caption d-none d-md-block bg-black bg-opacity-50 shadow-caption">
+              <h5 style="font-family:'Times New Roman', Times, serif; font-size: 2rem;">Blue Rose Serenade</h5>
+              <p style="font-family: Georgia, 'Times New Roman', Times, serif;">"At Blue Rose Serenade, we specialize in creating unique, handcrafted blue rose arrangements that tell your story."</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/CAROUSEL2.png" class="d-block w-100" alt="Blue Roses Gift Set">
+            <div class="carousel-caption d-none d-md-block bg-black bg-opacity-50 shadow-caption">
+              <h5 style="font-family:'Times New Roman', Times, serif; font-size: 2rem;">Choose Your Product</h5>
+              <p style="font-family: Georgia, 'Times New Roman', Times, serif;"> "Explore our collection of stunning blue rose arrangements and customized gift sets, perfect for any occasion."</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+  </section>
+
+
+    <!-- bawah carousel -->
+    <section id="vp">
+      <div class="container mt-3 py-lg-4 icon-section">
+        <div class="row justify-content-center"> <!-- Menambahkan justify-content-center untuk menyejajarkan ke tengah -->
+          <div class="col-lg-3 col-md-6 px-3 py-2 d-flex justify-content-center"> <!-- Menambahkan d-flex dan justify-content-center pada setiap kolom -->
+            <div class="media text-center"> <!-- Menambahkan text-center untuk menyusun teks di tengah -->
+              <img class="mr-3 ls-is-cached lazyloaded" src="img/iconnomer1.webp" width="50" height="50" alt="Garansi Tepat Waktu">
+              <div class="media-body">
+                <p class="h4 my-0">#1 Florist Blue Rose</p>
+                <p class="mt-1">Komitmen kami adalah untuk menghadirkan produk berkualitas dan layanan profesional.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 px-3 py-2 d-flex justify-content-center">
+            <div class="media text-center">
+              <img class="mr-3 ls-is-cached lazyloaded" src="img/iconinovative.webp" width="50" height="50" alt="Jangkauan Luas">
+              <div class="media-body">
+                <p class="h4 my-0">Innovative</p>
+                <p class="mt-1">Ratusan pilihan bungan berdesain menarik untuk acara apa pun.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 px-3 py-2 d-flex justify-content-center">
+            <div class="media text-center">
+              <img class="mr-3 ls-is-cached lazyloaded" src="img/icondelivery.webp" width="50" height="50" alt="Gratis Ongkir">
+              <div class="media-body">
+                <p class="h4 my-0">Free Same-Day Delivery</p>
+                <p class="mt-1">Delivery ke Seluruh Indonesia</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    </section>
+    <br><br>
+  <div class="container">
+    <div class="elementor-widget-container">
+      <p style="text-align: center">Established in 2024, Blue Rose Serenade blossoms with elegance and has become a captivating florist in the heart of the city. With “Blue Roses” as our signature charm, we are delighted to offer a variety of handcrafted floral arrangements to suit every occasion. You can also personalize your bouquet through our diverse collection of exquisite designs.</p>
+      <p style="text-align: center">We are honored to be your trusted florist, creating timeless floral pieces to celebrate your most precious moments.</p>
+    </div>
+    <!-- Pembatas dengan karakter dan CSS inline -->
+    <div style="text-align: center; margin: 40px 0; font-size: 2rem; color: #222a2c;">
+      ━━ ❀ BLUE ROSE SERENADE ❀ ━━
+  </div>
+
+  <!-- Promo -->
+  <section id="promo">
+    <div class="container py-5">
+      <h2 class="section-title" id="fp">Promo</h2>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100 shadow-sm border-light">
+            <div class="position-relative">
+              <img src="img/𝘭𝘦𝘦𝘯𝘢 𝘴𝘢𝘬𝘶𝘳𝘢.jpg" class="card-img-top" alt="Buket Imut 1">
+              <div class="position-absolute top-0 start-0 p-3 text-white bg-danger" style="z-index: 1;">
+                <strong>Promo Spesial</strong>
+              </div>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Eternal Blue Roses</h5>
+              <p class="card-text">Blue roses represent the eternal, the unique, and the rare. Celebrate moments of love and elegance with our eternal blue roses bouquet.</p>
+              <h6 class="text-primary">Rp. 200,000</h6>
+            </div>
+            <div class="card-footer">
+              <small class="text-body-secondary">Last updated 3 mins ago</small>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col">
+          <div class="card h-100 shadow-sm border-light">
+            <div class="position-relative">
+              <img src="img/rose4.jpg" class="card-img-top" alt="Buket Mawar Merah">
+              <div class="position-absolute top-0 start-0 p-3 text-white bg-danger" style="z-index: 1;">
+                <strong>Promo Spesial</strong>
+              </div>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Whispers of Blue Roses</h5>
+              <p class="card-text">Let the whispers of blue roses convey your deepest emotions. A delicate yet powerful way to express your love.</p>
+              <h6 class="text-primary">Rp. 150,000</h6>
+            </div>
+            <div class="card-footer">
+              <small class="text-body-secondary">Last updated 3 mins ago</small>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col">
+          <div class="card h-100 shadow-sm border-light">
+            <div class="position-relative">
+              <img src="img/ѕαvє=fσllσw 🌼.jpg" class="card-img-top" alt="Buket Campuran">
+              <div class="position-absolute top-0 start-0 p-3 text-white bg-danger" style="z-index: 1;">
+                <strong>Promo Spesial</strong>
+              </div>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Serenity of Blue Roses</h5>
+              <p class="card-text">Calm, peaceful, and timeless. The serenity of blue roses is the perfect representation of refined beauty.</p>
+              <h6 class="text-primary">Rp. 250,000</h6>
+            </div>
+            <div class="card-footer">
+              <small class="text-body-secondary">Last updated 3 mins ago</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+<!-- Product -->
+    <section id="products">
+      <h2 class="section-title" id="fp">Featured Product</h2>
+      <div id="ambassadorCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="4000"> <!-- Set interval to 5000ms (5 seconds) -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="card">
+                  <img src="img/galeri 1.jpg" class="card-img-top" alt="Blue Rose Bouquet">
+                  <div class="card-body">
+                    <h5 class="card-title">Blue Rose Bouquet</h5>
+                    <p class="card-text">A stunning bouquet of fresh blue roses, perfect for any occasion.</p>
+                    <a href="#" class="btn btn-primary">Order Now</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card">
+                  <img src="img/galeri 3.jpg" class="card-img-top" alt="Blue Rose Arrangement">
+                  <div class="card-body">
+                    <h5 class="card-title">Blue Rose Arrangement</h5>
+                    <p class="card-text">An elegant arrangement of blue roses in a beautiful vase.</p>
+                    <a href="#" class="btn btn-primary">Order Now</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card">
+                  <img src="img/galeri 2.jpg" class="card-img-top" alt="Blue Rose Gift Set">
+                  <div class="card-body">
+                    <h5 class="card-title">Blue Rose Gift Set</h5>
+                    <p class="card-text">A delightful gift set featuring blue roses and a personalized note.</p>
+                    <a href="#" class="btn btn-primary">Order Now</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="card">
+                  <img src="img/galeri 4.jpg" class="card-img-top" alt="Blue Rose Gift Set">
+                  <div class="card-body">
+                    <h5 class="card-title">Romantic Blue Rose</h5>
+                    <p class="card-text">Express your love with a bouquet of radiant blue roses, perfect for any romantic occasion</p>
+                    <a href="#" class="btn btn-primary">Order Now</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card">
+                  <img src="img/galeri 5.jpg" class="card-img-top" alt="Blue Rose Gift Set">
+                  <div class="card-body">
+                    <h5 class="card-title">Mystic Blue Roses</h5>
+                    <p class="card-text">The mystical allure of blue roses, representing unattainable dreams and love.</p>
+                    <a href="#" class="btn btn-primary">Order Now</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card">
+                  <img src="img/galeri 6.jpg" class="card-img-top" alt="Blue Rose Gift Set">
+                  <div class="card-body">
+                    <h5 class="card-title">Blue Rose Elegance</h5>
+                    <p class="card-text">An enchanting blue rose arrangement symbolizing mystery and beauty.</p>
+                    <a href="#" class="btn btn-primary">Order Now</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#ambassadorCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#ambassadorCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+ 
+    <div class="text-center mt-5" id="contact">
+      <h2 class="section-title">Contact Us</h2>
+      <p>Get in touch with us through our social media channels.</p>
+      <div class="row justify-content-center">
+        <div class="col-md-3">
+          <a href="https://www.instagram.com/anginlangi_" class="text-decoration-none">
+            <i class="fab fa-instagram fa-2x text-danger"></i>
+            <p>Instagram</p>
+          </a>
+        </div>
+        <div class="col-md-3">
+          <a href="mailto:puspitamegs@gmail.com" class="text-decoration-none">
+            <i class="fas fa-envelope fa-2x text-primary"></i>
+            <p>Email</p>
+          </a>
+        </div>
+        <div class="col-md-3">
+          <a href="tel:+6285940983808" class="text-decoration-none">
+            <i class="fas fa-phone fa-2x text-success"></i>
+            <p>Phone</p>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Lokasi -->
+  <div style="display: flex; justify-content: center; align-items: center; width: 100%; padding: 20px;">
+    <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3380.4983323928186!2d112.63598267425922!3d-7.9333693790035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd629ec2fcdcbcf%3A0x6fb24805076d6d06!2sJl.%20Piranha%20Atas%20Selatan%20Gg.%201A%2C%20Tunjungsekar%2C%20Kec.%20Lowokwaru%2C%20Kota%20Malang%2C%20Jawa%20Timur%2065142!5e1!3m2!1sid!2sid!4v1737677567930!5m2!1sid!2sid" 
+        style="width: 100%; max-width: 800px; height: 450px; border: 0;" 
+        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer text-center">
+    <p> Blue Rose Serenade &copy; <span id="year"></span></p>
+  </footer>
+
+  <script>
+    const yearElement = document.getElementById("year");
+    const currentYear = new Date().getFullYear();
+    yearElement.textContent = currentYear;
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
